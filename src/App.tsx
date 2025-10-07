@@ -1,22 +1,23 @@
+import { EventsList } from './components/events/events-list.tsx';
+import { Stack, Typography } from '@mui/material';
+
 function App() {
   return (
-    <div
-      style={{
-        width: "100vw",
-        height: "100vh",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        flexDirection: "column",
+    <Stack
+      gap={2}
+      sx={{
+        width: '100vw',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
       }}
     >
-      <h1>See Tickets </h1>
-      <div className="card">
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-    </div>
+      <Typography variant={'h3'} mt={3}>
+        See Tickets{' '}
+      </Typography>
+      <EventsList />
+    </Stack>
   );
 }
 
