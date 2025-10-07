@@ -779,6 +779,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mui/icons-material@npm:5.15.20":
+  version: 5.15.20
+  resolution: "@mui/icons-material@npm:5.15.20"
+  dependencies:
+    "@babel/runtime": ^7.23.9
+  peerDependencies:
+    "@mui/material": ^5.0.0
+    "@types/react": ^17.0.0 || ^18.0.0
+    react: ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: bdc4841e83e6628237e468965a726a8a099e57bd1075e5f70f2d5fd5715309bdf13d8dcbb66056c34109fd2a5932ab5eebf4820f3a2cb0cbe4bc17492f881e04
+  languageName: node
+  linkType: hard
+
 "@mui/material@npm:^5.15.20":
   version: 5.15.20
   resolution: "@mui/material@npm:5.15.20"
@@ -3053,6 +3069,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:^3.6.2":
+  version: 3.6.2
+  resolution: "prettier@npm:3.6.2"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 0206f5f437892e8858f298af8850bf9d0ef1c22e21107a213ba56bfb9c2387a2020bfda244a20161d8e3dad40c6b04101609a55d370dece53d0a31893b64f861
+  languageName: node
+  linkType: hard
+
 "proc-log@npm:^3.0.0":
   version: 3.0.0
   resolution: "proc-log@npm:3.0.0"
@@ -3480,6 +3505,7 @@ __metadata:
   dependencies:
     "@emotion/react": ^11.11.4
     "@emotion/styled": ^11.11.5
+    "@mui/icons-material": 5.15.20
     "@mui/material": ^5.15.20
     "@reduxjs/toolkit": ^2.2.5
     "@types/react": ^18.3.3
@@ -3491,6 +3517,7 @@ __metadata:
     eslint-plugin-react-hooks: ^4.6.2
     eslint-plugin-react-refresh: ^0.4.7
     formik: ^2.4.6
+    prettier: ^3.6.2
     react: ^18.3.1
     react-dom: ^18.3.1
     react-redux: ^9.1.2
