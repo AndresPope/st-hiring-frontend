@@ -1,6 +1,5 @@
 import {Event} from "../types/event.ts"
-
-const BASE_URL = import.meta.env.VITE_APP_API || "http://localhost:3000"
+import { BASE_URL } from './config.ts';
 
 export const listEvents = async () => {
     const response = await fetch(`${BASE_URL}/events`)
