@@ -1,5 +1,6 @@
 import { EventsList } from './components/events/events-list.tsx';
 import { Stack, Typography } from '@mui/material';
+import { SettingsFab } from './components/settings/settings-fab.tsx';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         See Tickets{' '}
       </Typography>
       <EventsList />
+      <SettingsFab />
     </Stack>
   );
 }

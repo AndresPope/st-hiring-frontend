@@ -42,7 +42,7 @@ export const EventsList = () => {
   }
 
   return (
-    <Grid container spacing={2} sx={{ px: 2 }}>
+    <Grid container spacing={2} sx={{ p: 2 }}>
       {events.map((event) => (
         <Grid key={event.id} item xs={12} sm={6} md={4} lg={3} display="flex">
           <EventCard event={event} />
